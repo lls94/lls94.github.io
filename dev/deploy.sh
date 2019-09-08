@@ -6,8 +6,12 @@ set -e
 # 生成静态文件
 yarn build
 
+# 拷贝文件到项目根目录
+cp -r docs/.vuepress/dist/* ../
+
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+# cd docs/.vuepress/dist
+cd ../
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
