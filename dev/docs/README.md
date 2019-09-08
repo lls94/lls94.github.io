@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: test →
+actionText: lls94 →
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
