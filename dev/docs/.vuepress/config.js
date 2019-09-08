@@ -4,6 +4,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+    serviceWorker: true,
     configureWebpack: {
         resolve: {
             alias: {
