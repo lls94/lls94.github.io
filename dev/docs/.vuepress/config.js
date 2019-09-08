@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Hello VuePress',
+    title: '哭的像条狗',
     description: 'Just playing around',
     markdown: {
         lineNumbers: true
