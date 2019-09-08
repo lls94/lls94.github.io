@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.jpg
 actionText: lls94 →
 actionLink: /zh/guide/
 features:
