@@ -9,7 +9,7 @@ yarn build
 # 拷贝文件到项目根目录
 mkdir ./dist
 cp -r docs/.vuepress/dist/* ./dist/
-# cp dist/index.html ../
+cp dist/index.html ../
 
 # 进入生成的文件夹
 # cd docs/.vuepress/dist

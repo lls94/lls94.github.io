@@ -5,6 +5,7 @@ module.exports = {
         lineNumbers: true
     },
     base: "/dev/dist/",
+    dest: "../dist",
     serviceWorker: true,
     configureWebpack: {
         resolve: {
