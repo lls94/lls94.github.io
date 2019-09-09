@@ -4,7 +4,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    base: "/dev/docs",
+    base: "/dev/docs/.vuepress/dist",
     serviceWorker: true,
     configureWebpack: {
         resolve: {
