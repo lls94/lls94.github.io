@@ -4,7 +4,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    base: "/",
+    base: "/dev/dist/",
     serviceWorker: true,
     configureWebpack: {
         resolve: {
