@@ -4,14 +4,18 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+    head: [
+        ['link', { rel: 'icon', href: '/logo.jpg' }]
+    ],
     base: "/docs/",
     dest: "../docs",
+    evergreen: true,
     serviceWorker: true,
     themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
+        lastUpdated: 'Last Updated',
+        nav: [],
+        sidebar: [
+            ['test/', 'Explicit link text']
         ]
     },
     configureWebpack: {
