@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.jpg
-actionText: 跟我走吧1 →
+actionText: 跟我走吧 →
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
