@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs",
+        "dev": "vuepress dev ./",
+        "build": "vuepress build ./",
         "prepush": "yarn build",
         "push": "./deploy.sh"
     },

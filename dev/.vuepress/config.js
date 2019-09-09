@@ -4,8 +4,8 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    base: "/dev/dist/",
-    dest: "../../dist",
+    base: "/docs/",
+    dest: "../docs",
     serviceWorker: true,
     themeConfig: {
         nav: [
