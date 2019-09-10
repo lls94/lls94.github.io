@@ -1,11 +1,15 @@
 {
     "scripts": {
-        "dev": "vuepress dev ./",
+        "dev": "nodemon --delay 1  --watch .vuepress --exec \"vuepress dev\" ./",
         "build": "vuepress build ./",
         "prepush": "yarn build",
         "push": "./deploy.sh"
     },
     "devDependencies": {
+        "nodemon": "^1.19.2",
         "vuepress": "^1.0.4"
+    },
+    "dependencies": {
+        "nodemon": "^1.19.2"
     }
 }
