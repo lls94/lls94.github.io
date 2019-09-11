@@ -13,6 +13,7 @@
 * Can i use <https://caniuse.com/#home>
 * whistle 跨平台web调试代理工具 <http://wproxy.org/whistle/>
 * 根据照片检测年龄 <https://www.how-old.net/>
+* 图片压缩 <https://tinypng.com/>
 
 ## 前端库
 * PDF.js <http://mozilla.github.io/pdf.js/>
