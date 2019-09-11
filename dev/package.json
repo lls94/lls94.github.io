@@ -1,15 +1,16 @@
 {
-    "scripts": {
-        "dev": "nodemon --delay 1  --watch .vuepress --exec \"vuepress dev\" ./",
-        "build": "vuepress build ./",
-        "prepush": "yarn build",
-        "push": "./deploy.sh"
-    },
-    "devDependencies": {
-        "nodemon": "^1.19.2",
-        "vuepress": "^1.0.4"
-    },
-    "dependencies": {
-        "nodemon": "^1.19.2"
-    }
+  "scripts": {
+    "dev": "nodemon --delay 1  --watch .vuepress --exec \"vuepress dev\" ./",
+    "build": "vuepress build ./",
+    "prepush": "yarn build",
+    "push": "./deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "nodemon": "^1.19.2",
+    "vuepress": "^1.0.4"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
