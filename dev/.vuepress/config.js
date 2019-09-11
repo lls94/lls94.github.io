@@ -5,11 +5,13 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    plugins: [
-        '@vuepress/pwa', {
-            serviceWorker: true,
-            updatePopup: true
-        }
+    plugins: [{
+            '@vuepress/pwa': {
+                serviceWorker: true,
+                updatePopup: true
+            }
+        },
+        '@vuepress/back-to-top'
     ],
     head: [
         ["link", { rel: "icon", href: "/logo.jpg" }],
