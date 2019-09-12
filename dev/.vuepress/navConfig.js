@@ -8,4 +8,7 @@ module.exports = [{
         text: "娱乐",
         link: "/collectionWeb/entertainment/"
     }]
+}, {
+    text: "vscode",
+    link: "/vsCode/"
 }]
