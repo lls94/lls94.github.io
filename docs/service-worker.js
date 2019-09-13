@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "fb0e7a23a894a19d239b5b1da87d554c"
+    "revision": "c6b909f3a848d3ff18614856c3835bcd"
   },
   {
     "url": "assets/css/0.styles.22d3b194.css",
@@ -60,32 +60,32 @@ self.__precacheManifest = [
     "revision": "a94b9d2f134a7e2c630009776424ee51"
   },
   {
-    "url": "assets/js/8.0f49d43e.js",
-    "revision": "4ad6bf0ec96acca353c91acc023126aa"
+    "url": "assets/js/8.808798d3.js",
+    "revision": "c65f67d5d9688c6248738f7415036262"
   },
   {
-    "url": "assets/js/9.bb667539.js",
-    "revision": "40f9b3d00ec44745b796dc6ef3f23a55"
+    "url": "assets/js/9.c0590773.js",
+    "revision": "c0df4b2e43f493310803936053d50c47"
   },
   {
-    "url": "assets/js/app.f09fef48.js",
-    "revision": "a2dfba79da5b92ed2483f790114a63f0"
+    "url": "assets/js/app.dcd9f6e7.js",
+    "revision": "d16b846d84de85417908000950441f3a"
   },
   {
     "url": "collectionWeb/entertainment/index.html",
-    "revision": "6870a2cb766748ed27a9be0d20805121"
+    "revision": "6d12c6bbae302b56e89e1c85bff803d4"
   },
   {
     "url": "collectionWeb/study/index.html",
-    "revision": "ad4c765da522a25369a0cb0b506340b8"
+    "revision": "3e88e8ab6aaa06b94f853532a825144e"
   },
   {
     "url": "index.html",
-    "revision": "bc7e56f149ac96d2f1d7f083fed7cd60"
+    "revision": "5b4e8f2e6b8d5d65f9264acca49f5106"
   },
   {
     "url": "vsCode/index.html",
-    "revision": "4782e9f63b1d0d80e4654d5f8069ae4d"
+    "revision": "4c5087b8e394f598e9283126ec030c77"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

@@ -8,6 +8,7 @@
     "description": "李力士的杂货铺",
     "icons": [{
         "src": "/docs/logo.webp",
-        "sizes": "500x500"
+        "sizes": "500x500",
+        "type": "image/webp"
     }]
 }
