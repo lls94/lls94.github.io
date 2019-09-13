@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /logo.webp
 actionText: chrome edge →
 actionLink: https://www.microsoftedgeinsider.com/zh-cn/download
 features:

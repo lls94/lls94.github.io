@@ -7,7 +7,7 @@
     "background_color": "#fff",
     "description": "李力士的杂货铺",
     "icons": [{
-        "src": "/docs/logo.png",
+        "src": "/docs/logo.webp",
         "sizes": "500x500"
     }]
 }
