@@ -31,14 +31,13 @@ module.exports = {
         ["meta", { name: "theme-color", content: "#3eaf7c" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
-        ["meta", { name: "msapplication-TileImage", content: "" }],
         ["meta", { name: "msapplication-TileColor", content: "#000000" }]
     ],
     base: "/docs/",
     dest: "../docs",
     evergreen: true,
     themeConfig: {
-        lastUpdated: "Last Updated",
+        lastUpdated: "上次更新时间",
         nav: navConfig,
         sidebar: []
     },
