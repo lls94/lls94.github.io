@@ -30,3 +30,5 @@
 * 基于浏览器的webpack 仪表盘 <https://github.com/zouhir/jarvis>
 * commander.js <https://github.com/tj/commander.js>
 * axios <https://github.com/axios/axios>
+
+{{$page.lastUpdated}}

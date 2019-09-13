@@ -5,13 +5,26 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    plugins: {
-        "@vuepress/pwa": {
-            serviceWorker: true,
-            updatePopup: true
-        },
-        "@vuepress/back-to-top": {}
-    },
+    plugins: [
+        "@vuepress/medium-zoom",
+        "@vuepress/nprogress",
+        "@vuepress/back-to-top", [
+            "@vuepress/pwa",
+            {
+                serviceWorker: true,
+                updatePopup: true
+            }
+        ],
+        [
+            "@vuepress/last-updated",
+            {
+                // transformer: (timestamp, lang) => {
+                //     console.log(timestamp, lang, 155555);
+                //     return '123'
+                // }
+            }
+        ]
+    ],
     head: [
         ["link", { rel: "icon", href: "/logo.jpg" }],
         ["link", { rel: "manifest", href: "/manifest.json" }],
