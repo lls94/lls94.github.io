@@ -8,27 +8,21 @@
     "description": "李力士的杂货铺",
     "icons": [{
         "src": "/docs/logo.jpg",
-        "sizes": "48x48",
-        "type": "image/jpg"
+        "sizes": "48x48"
     }, {
         "src": "/docs/logo.jpg",
-        "sizes": "72x72",
-        "type": "image/jpg"
+        "sizes": "72x72"
     }, {
         "src": "/docs/logo.jpg",
-        "sizes": "96x96",
-        "type": "image/jpg"
+        "sizes": "96x96"
     }, {
         "src": "/docs/logo.jpg",
-        "sizes": "144x144",
-        "type": "image/jpg"
+        "sizes": "144x144"
     }, {
         "src": "/docs/logo.jpg",
-        "sizes": "168x168",
-        "type": "image/jpg"
+        "sizes": "168x168"
     }, {
         "src": "/docs/logo.jpg",
-        "sizes": "192x192",
-        "type": "image/jpg"
+        "sizes": "192x192"
     }]
 }
