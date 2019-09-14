@@ -22,7 +22,7 @@ module.exports = {
             "@vuepress/last-updated",
             {
                 transformer: (timestamp, lang) => {
-                    return new Date(timestamp).toLocaleString(lang)
+                    return new Date(timestamp).toLocaleString('zh-CN')
                 }
             }
         ]
