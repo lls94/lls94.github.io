@@ -12,7 +12,10 @@ module.exports = {
             "@vuepress/pwa",
             {
                 serviceWorker: true,
-                updatePopup: true
+                updatePopup: {
+                    message: "杂货铺上新东西了，要看看吗？？？",
+                    buttonText: "我要我要"
+                }
             }
         ],
         [

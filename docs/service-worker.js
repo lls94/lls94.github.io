@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "473e8fc71ce9b831a88a4a0e00ed341b"
+    "revision": "df37641dbd691b7ed8f514c1eebb4912"
   },
   {
     "url": "assets/css/0.styles.22d3b194.css",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "revision": "ad155dda91df3785970ff4cd409f7cd0"
   },
   {
-    "url": "assets/js/3.7eae84d8.js",
-    "revision": "be2e5391a500b060e201bf979e627e9f"
+    "url": "assets/js/3.af3a48b6.js",
+    "revision": "0bee534c664a7cbdcadd7467d2f06b64"
   },
   {
     "url": "assets/js/4.22b7cfb4.js",
@@ -60,40 +60,40 @@ self.__precacheManifest = [
     "revision": "686e7418c96be82af38475abef39d0e3"
   },
   {
-    "url": "assets/js/7.2067b1ac.js",
-    "revision": "731b2e9435dfd641531ac01b4936e3f2"
+    "url": "assets/js/7.fc2a1fa5.js",
+    "revision": "007a48bd63898ee6dfee660b74998c02"
   },
   {
-    "url": "assets/js/8.de67edaa.js",
-    "revision": "10a824f5808c680ce29ab68dd7a05357"
+    "url": "assets/js/8.6fb86d29.js",
+    "revision": "74e5468e8c7bc0a75ee82aedc7e31312"
   },
   {
-    "url": "assets/js/9.4eecb13c.js",
-    "revision": "c178d73c63215521346b4cbcf6f87afd"
+    "url": "assets/js/9.b4086327.js",
+    "revision": "c7984e820362ad1be2c48d17b6207a60"
   },
   {
-    "url": "assets/js/app.9d7d9f56.js",
-    "revision": "a86b79a14d9f95f33010101b356a373e"
+    "url": "assets/js/app.02a401c4.js",
+    "revision": "6fc07104ac987adddc55cc24f60bbc3f"
   },
   {
     "url": "collectionWeb/entertainment/index.html",
-    "revision": "f76b180f9e31812c521c595019c92ec4"
+    "revision": "2895e1861eb4c498ec192a161993ea7f"
   },
   {
     "url": "collectionWeb/study/index.html",
-    "revision": "9dd498274b565f3de0b129fbf420dcb9"
+    "revision": "e508d6d416348583038f47f0cd61420e"
   },
   {
     "url": "fanqiang/index.html",
-    "revision": "b340a87143651656585eda086c2b5d75"
+    "revision": "d9dc4edb69730f4c5ac631e0e7ece430"
   },
   {
     "url": "index.html",
-    "revision": "558ca98b48901f879ac95a0134439378"
+    "revision": "7e360d09c865e02d446cf706685b1863"
   },
   {
     "url": "vsCode/index.html",
-    "revision": "4d793f145a7d28de5a3ac5c8c733aea4"
+    "revision": "c4243afb747d788de48b7e8feddaaa30"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
