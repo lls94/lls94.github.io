@@ -11,4 +11,7 @@ module.exports = [{
 }, {
     text: "vscode",
     link: "/vsCode/"
+}, {
+    text: "翻墙",
+    link: "/fanqiang/"
 }]

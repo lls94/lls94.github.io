@@ -1,4 +1,20 @@
+## 大厂网站
+* 凹凸实验室 <https://aotu.io/index.html>
+
+## 下载
+* window10 镜像下载 <https://www.microsoft.com/zh-cn/software-download/windows10>
+
+## 学习计划 
+* 微信小程序 <https://developers.weixin.qq.com/doc/>
+* 支付宝小程序 <https://docs.alipay.com/mini/developer/getting-started>
+* flutter <https://flutter.dev/>
+* electron <https://electronjs.org/>
+* nodejs <https://nodejs.org/zh-cn/>
 ## 工具类
+* winrar <https://www.rarlab.com/>
+* emoji <https://emojipedia.org/>
+* webp-converter <https://webp-converter.com/>
+* 智图 <https://zhitu.isux.us/>
 * 在线工具 —— 开源中国社区 <http://tool.oschina.net/>
 * Apowersoft官网 <https://www.apowersoft.cn>
 * Apowersoft在线录屏 <https://www.apowersoft.cn/free-online-screen-recorder>
@@ -30,5 +46,3 @@
 * 基于浏览器的webpack 仪表盘 <https://github.com/zouhir/jarvis>
 * commander.js <https://github.com/tj/commander.js>
 * axios <https://github.com/axios/axios>
-
-{{$page.lastUpdated}}
