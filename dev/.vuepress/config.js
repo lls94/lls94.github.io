@@ -18,10 +18,9 @@ module.exports = {
         [
             "@vuepress/last-updated",
             {
-                // transformer: (timestamp, lang) => {
-                //     console.log(timestamp, lang, 155555);
-                //     return '123'
-                // }
+                transformer: (timestamp, lang) => {
+                    return new Date(timestamp).toLocaleString(lang)
+                }
             }
         ]
     ],
