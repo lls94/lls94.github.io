@@ -3,3 +3,6 @@
 
 * 关闭防火墙 firewall-cmd --state
 * 禁止开机启动 systemctl disable firewalld.service 
+
+## ss 链接
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmTFJtcnlnOW95QW8=@149.28.226.95:51581/?outline=1
