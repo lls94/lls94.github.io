@@ -6,3 +6,10 @@
 
 ## ss 链接
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmTFJtcnlnOW95QW8=@149.28.226.95:51581/?outline=1
+
+## outline 安装失败 
+$ systemctl daemon-reload
+$ sudo service docker restart
+
+## shadowsocks
+https://github.com/shadowsocks
