@@ -11,6 +11,8 @@
 * electron <https://electronjs.org/>
 * nodejs <https://nodejs.org/zh-cn/>
 ## 工具类
+* apk下载 <https://apk-dl.com/>
+* 图片处理 <https://www.iloveimg.com/zh-cn>
 * winrar <https://www.rarlab.com/>
 * emoji <https://emojipedia.org/>
 * webp-converter <https://webp-converter.com/>
