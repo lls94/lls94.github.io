@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "22df5aedb48f697074bab2518910b733"
+    "revision": "6b27b0722472925b85630749be7b8aa8"
   },
   {
     "url": "assets/css/0.styles.22d3b194.css",
@@ -68,40 +68,40 @@ self.__precacheManifest = [
     "revision": "007a48bd63898ee6dfee660b74998c02"
   },
   {
-    "url": "assets/js/8.36c52e9e.js",
-    "revision": "8471e9703da5115516984b483c8069a7"
+    "url": "assets/js/8.02f1b49d.js",
+    "revision": "f72b3a552812cdeb4c0d0204cbf6558a"
   },
   {
     "url": "assets/js/9.25a7233e.js",
     "revision": "05e74f61584d585f8c1029308bc93859"
   },
   {
-    "url": "assets/js/app.42960399.js",
-    "revision": "094a6df1ac543a7229d362d9e745b189"
+    "url": "assets/js/app.be8fcbcb.js",
+    "revision": "bb8cc6abeab45909d212d9bf46b768f0"
   },
   {
     "url": "collectionWeb/entertainment/index.html",
-    "revision": "5af2b861eaa6f2996360bcb4982ade14"
+    "revision": "b3f472303d69738ca5b88bf7a08058eb"
   },
   {
     "url": "collectionWeb/study/index.html",
-    "revision": "68555686d4d61b5381a8bda03e97a57d"
+    "revision": "f9a80997363e60a779f7ebf4c78a53b2"
   },
   {
     "url": "fanqiang/index.html",
-    "revision": "a6903d8f0dccb433980ecc6449137cc5"
+    "revision": "429abfc180c1984c1ae9dba6593bf89c"
   },
   {
     "url": "flutter/index.html",
-    "revision": "487047cb367b6dc270b842be83a7c02e"
+    "revision": "76516a24a6d5751c1a15c3f7bc7dae28"
   },
   {
     "url": "index.html",
-    "revision": "ceac3e95dec71e5b35b5797a05b982a2"
+    "revision": "c4c7cda2f537b8d27946dd04e114e2e1"
   },
   {
     "url": "vsCode/index.html",
-    "revision": "da4f013bdc499e68db0c8bea6340f0f0"
+    "revision": "c151f3ce307cd40f19b06b0656522fca"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

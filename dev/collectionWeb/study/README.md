@@ -1,7 +1,8 @@
 ## 大厂网站
 * 凹凸实验室 <https://aotu.io/index.html>
 
-## 滚动锚定 <https://eqrion.github.io/web-tests/scrolling/anchor-slider.html>
+## 滚动锚定
+* <https://eqrion.github.io/web-tests/scrolling/anchor-slider.html>
 
 ## 下载
 * window10 镜像下载 <https://www.microsoft.com/zh-cn/software-download/windows10>
