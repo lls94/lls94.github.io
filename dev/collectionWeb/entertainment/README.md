@@ -5,6 +5,7 @@
 * 芒果tv <https://www.mgtv.com/>
 * 91美剧 <https://91mjw.com/>
 * 爱美剧 <https://www.meiju.net/>
+* bt 天堂 <http://www.btbtdy.me/>
 
 ## 成人向
 * studiofow <https://studiofow.com/>
