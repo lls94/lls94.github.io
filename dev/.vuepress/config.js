@@ -2,6 +2,7 @@ const navConfig = require("./navConfig.js");
 module.exports = {
     title: "杂货铺",
     description: "Just playing around",
+    lang: "zh-CN",
     markdown: {
         lineNumbers: true
     },
