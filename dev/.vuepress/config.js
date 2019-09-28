@@ -42,7 +42,13 @@ module.exports = {
     themeConfig: {
         lastUpdated: "上次更新时间",
         nav: navConfig,
-        sidebar: []
+        sidebar: 'auto',
+        repo: 'lls94/lls94.github.io',
+        repoLabel: 'github',
+        editLinks: true,
+        editLinkText: '我有个小建议',
+        docsDir: 'dev',
+        smoothScroll: true
     },
     configureWebpack: {
         resolve: {
