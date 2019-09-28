@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "9b75ad4d9594397758816f0da98ea445"
+    "revision": "6725ed610035c362679e46a368886f58"
   },
   {
     "url": "assets/css/0.styles.22d3b194.css",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.7eca0fdf.js",
-    "revision": "80e93ad1a2be77da37e50a2cc0747bc6"
+    "url": "assets/js/10.54ea9ee9.js",
+    "revision": "e0056326cbbf6117bdd8593fac42f822"
   },
   {
-    "url": "assets/js/11.0fe80d0d.js",
-    "revision": "fa418b486a10993431a646284057dc35"
+    "url": "assets/js/11.a02d53fb.js",
+    "revision": "1bbbcc80e1857d627614174ba29092f7"
   },
   {
     "url": "assets/js/12.35a012f8.js",
@@ -72,36 +72,36 @@ self.__precacheManifest = [
     "revision": "f72b3a552812cdeb4c0d0204cbf6558a"
   },
   {
-    "url": "assets/js/9.25a7233e.js",
-    "revision": "05e74f61584d585f8c1029308bc93859"
+    "url": "assets/js/9.1b6c9f10.js",
+    "revision": "f784e8dd63fbd7b2f95fba58a683c210"
   },
   {
-    "url": "assets/js/app.b1d4f14c.js",
-    "revision": "139fc4f2dcc380b3549542c0d3e180ae"
+    "url": "assets/js/app.0ccf2328.js",
+    "revision": "d8871f086168334d49970ba5d1af835d"
   },
   {
     "url": "collectionWeb/entertainment/index.html",
-    "revision": "a9da81b1a0e90ad16c6aa90db9865958"
+    "revision": "08a6c2912eae1a5947704be1446b3575"
   },
   {
     "url": "collectionWeb/study/index.html",
-    "revision": "7310e779a0dc3b5decbf43721cf65718"
+    "revision": "4b03465e9e84e7b1c3c651d62bc8cc48"
   },
   {
     "url": "fanqiang/index.html",
-    "revision": "caec9950a34dbc9c54927da1db74d0f8"
+    "revision": "72a51e92d16de15be03b5e6937596115"
   },
   {
     "url": "flutter/index.html",
-    "revision": "ffb087ea6646a2d9059f8d31049807a4"
+    "revision": "d141aae58f4400d9bfe87b41b826182b"
   },
   {
     "url": "index.html",
-    "revision": "5df1acb309d4b15f56b6e763cf5984b3"
+    "revision": "87a44c7724890e9a462c5c36fad566f0"
   },
   {
     "url": "vsCode/index.html",
-    "revision": "d326d6286fd8a9a3842e01ccce014da1"
+    "revision": "65cce2cc13088c3f2f0018d997a26174"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

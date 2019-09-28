@@ -18,7 +18,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmTFJtcnlnOW95QW8=@149.28.226.95:51581/?outli
 ```
 
 ## shadowsocks
-https://github.com/shadowsocks
+<https://github.com/shadowsocks>
+
+## outline 官网
+<https://getoutline.org/zh-CN/home>
 
 ## bbr 一键安装脚本
 ```sh
