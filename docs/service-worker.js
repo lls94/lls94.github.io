@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c9ac2472cf9f0d8041f3b13fe20e6711"
+    "revision": "f03b9e84c07ec7a6c49a45ad26027045"
   },
   {
     "url": "assets/css/0.styles.22d3b194.css",
@@ -32,24 +32,24 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.df95f8e6.js",
-    "revision": "de388999c8cf590518a6f96dc325700a"
+    "url": "assets/js/10.e288f46e.js",
+    "revision": "a18d85983bcd69977d0c495ef56756a2"
   },
   {
-    "url": "assets/js/11.d4e1f1b7.js",
-    "revision": "2d2da3dbc3f44c20b0af895fea5c4372"
+    "url": "assets/js/11.dfd252c8.js",
+    "revision": "2281955aad753cf1997e9e0e5ec9c26f"
   },
   {
-    "url": "assets/js/12.5f6a6a58.js",
+    "url": "assets/js/12.78ee08f7.js",
     "revision": "8761b18bb47ab491b4593185c42d30f5"
   },
   {
-    "url": "assets/js/13.95a1eb4d.js",
-    "revision": "a333d135ac89ea6b7608309c546d8257"
+    "url": "assets/js/13.97e4ec89.js",
+    "revision": "35d45c2044524b2de36a3d8f23accd5a"
   },
   {
-    "url": "assets/js/14.395df3d1.js",
-    "revision": "c3e1b8af5b8f87159b8372360e30c4a7"
+    "url": "assets/js/14.252d2c9b.js",
+    "revision": "7118986a973026af1bc00ed7fcaf8879"
   },
   {
     "url": "assets/js/15.0d751d3d.js",
@@ -76,56 +76,56 @@ self.__precacheManifest = [
     "revision": "686e7418c96be82af38475abef39d0e3"
   },
   {
-    "url": "assets/js/7.5a1d617f.js",
-    "revision": "e146b469f4b751fde2d751b4c87e74ad"
+    "url": "assets/js/7.796bac7b.js",
+    "revision": "93fc9ac32d04814567124bbf88a82050"
   },
   {
-    "url": "assets/js/8.f06213b0.js",
-    "revision": "a2d5db92e79e3c2add61f86853dc637a"
+    "url": "assets/js/8.5c0ccc9e.js",
+    "revision": "f72b3a552812cdeb4c0d0204cbf6558a"
   },
   {
-    "url": "assets/js/9.3ef27013.js",
-    "revision": "ef8f68194c4feb1999350c39c80287b7"
+    "url": "assets/js/9.d4a25b62.js",
+    "revision": "1e951803af7c8e8cd5846d21a97a3439"
   },
   {
-    "url": "assets/js/app.09df1a20.js",
-    "revision": "2160ba9e28953bc3c94d33c0a3fc1636"
+    "url": "assets/js/app.f2abf43c.js",
+    "revision": "31e3846e62a961e8ded5bff129d724d6"
   },
   {
-    "url": "codeSnippet/index.html",
-    "revision": "f3b3c0bbb161ddba8a329d700f382793"
-  },
-  {
-    "url": "collectionWeb/entertainment/index.html",
-    "revision": "cf1008ae486980bfebb60c7e8a1dd647"
-  },
-  {
-    "url": "collectionWeb/study/index.html",
-    "revision": "aa8fea57aa0c90901c30c79da81d512d"
-  },
-  {
-    "url": "fanqiang/index.html",
-    "revision": "ae4ee030c8239d782002aaa7c46d0d8d"
-  },
-  {
-    "url": "flutter/index.html",
-    "revision": "4bb56c949f8d327f17f8ea545a55e6ba"
-  },
-  {
-    "url": "frontEnd/CSS/index.html",
-    "revision": "bf8902e21811c9b80750b81877494a95"
-  },
-  {
-    "url": "frontEnd/javaScript/index.html",
-    "revision": "e8007a9258910e177eaceeec8dcc9fe1"
+    "url": "entertainment/index.html",
+    "revision": "f3f1948292640d9ed83bee5381f0c29d"
   },
   {
     "url": "index.html",
-    "revision": "62c3728ec161bb88d29606e6c1b921b8"
+    "revision": "bc6f1d3662555a7b11d5be74828285ae"
   },
   {
-    "url": "vsCode/index.html",
-    "revision": "4f6a9a3fc1ea8ecf7b3d315a65696443"
+    "url": "study/codeSnippet.html",
+    "revision": "329745f19591b8b92f8f208e7deb758f"
+  },
+  {
+    "url": "study/fanqiang.html",
+    "revision": "8c68baaba5b01c7db53bacf7f2882625"
+  },
+  {
+    "url": "study/flutter/index.html",
+    "revision": "a29e7eb029599d1c3daa03ee0c9fc95c"
+  },
+  {
+    "url": "study/frontEnd/CSS/index.html",
+    "revision": "cfcea47377e3ada5973a6a913c73bca2"
+  },
+  {
+    "url": "study/frontEnd/javaScript/index.html",
+    "revision": "c2352d506e1d2e3210b7bce748ff3fb8"
+  },
+  {
+    "url": "study/index.html",
+    "revision": "c14f86d0ca15802dc34d98997cf2feb4"
+  },
+  {
+    "url": "study/vsCode.html",
+    "revision": "e24d7115e1cfcd6f997f92de5392288c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

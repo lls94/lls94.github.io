@@ -2,28 +2,28 @@ module.exports = [{
     text: "前端",
     items: [{
         text: "javaScript",
-        link: "/frontEnd/javaScript/"
+        link: "/study/frontEnd/javaScript/"
 
     }, {
         text: "CSS",
-        link: "/frontEnd/CSS/"
+        link: "/study/frontEnd/CSS/"
     }]
 }, {
     text: "收藏",
     items: [{
         text: "学习",
-        link: "/collectionWeb/study/"
+        link: "/study/"
 
     }, {
         text: "娱乐",
-        link: "/collectionWeb/entertainment/"
+        link: "/entertainment/"
     }]
 }, {
     text: "vscode",
-    link: "/vsCode/"
+    link: "/study/vsCode"
 }, {
     text: "翻墙",
-    link: "/fanqiang/"
+    link: "/study/fanqiang"
 }, {
     text: "MDN",
     link: "https://developer.mozilla.org/zh-CN/"
