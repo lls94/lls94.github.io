@@ -44,6 +44,7 @@ module.exports = {
     dest: "../docs",
     evergreen: true,
     themeConfig: {
+        smoothScroll: true,
         lastUpdated: "上次更新",
         nav: navConfig,
         sidebar: 'auto',
@@ -51,8 +52,7 @@ module.exports = {
         repoLabel: 'github',
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页',
-        docsDir: 'dev',
-        smoothScroll: true
+        docsDir: 'dev'
     },
     configureWebpack: {
         resolve: {
