@@ -42,3 +42,4 @@ awesome-vscode <https://github.com/viatsko/awesome-vscode>
 * [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode)
 * [vscode-fileheader](https://marketplace.visualstudio.com/items?itemName=mikey.vscode-fileheader)
 * [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+* [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
