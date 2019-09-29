@@ -24,4 +24,7 @@ module.exports = [{
 }, {
     text: "翻墙",
     link: "/fanqiang/"
+}, {
+    text: "MDN",
+    link: "https://developer.mozilla.org/zh-CN/"
 }]

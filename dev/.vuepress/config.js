@@ -2,7 +2,11 @@ const navConfig = require("./navConfig.js");
 module.exports = {
     title: "杂货铺",
     description: "Just playing around",
-    lang: "zh-CN",
+    locales: {
+        '/': {
+            lang: "zh-CN"
+        }
+    },
     markdown: {
         lineNumbers: true
     },
@@ -40,13 +44,13 @@ module.exports = {
     dest: "../docs",
     evergreen: true,
     themeConfig: {
-        lastUpdated: "上次更新时间",
+        lastUpdated: "上次更新",
         nav: navConfig,
         sidebar: 'auto',
         repo: 'lls94/lls94.github.io',
         repoLabel: 'github',
         editLinks: true,
-        editLinkText: '我有个小建议',
+        editLinkText: '在 GitHub 上编辑此页',
         docsDir: 'dev',
         smoothScroll: true
     },
