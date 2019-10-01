@@ -9,7 +9,8 @@
 * 禁止开机启动 systemctl disable firewalld.service 
 
 ## ss 链接
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmTFJtcnlnOW95QW8=@149.28.226.95:51581/?outline=1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCZ1hwVDFrRXp2bEk=@45.77.173.184:43998/?outline=1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2YkpnU0U5UmlRbHM=@45.77.173.184:43998/?outline=1
 
 ## outline 安装失败 
 ```sh
