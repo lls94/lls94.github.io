@@ -46,8 +46,31 @@
 * ava.js <https://github.com/avajs/ava>
 * Jest <https://jestjs.io/>
 
-## npm 包
+## 收藏
 * chalk <https://github.com/chalk/chalk>
 * 基于浏览器的webpack 仪表盘 <https://github.com/zouhir/jarvis>
 * commander.js <https://github.com/tj/commander.js>
 * axios <https://github.com/axios/axios>
+* mirror-config-china <https://github.com/gucong3000/mirror-config-china>
+* glyphhanger 字体库截取 <https://github.com/filamentgroup/glyphhanger>
+
+## 字体库截取
+* 第一步 安装 
+```bash
+    安装python
+    pip install fonttools
+    https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools
+    http://download.microsoft.com/download/5/F/7/5F7ACAEB-8363-451F-9425-68A90F98B238/visualcppbuildtools_full.exe
+
+
+    # Additional installation for --flavor=woff2
+    git clone https://github.com/google/brotli
+    cd brotli
+    python setup.py install
+
+    # Additional installation for --flavor=woff --with-zopfli
+    git clone https://github.com/anthrotype/py-zopfli
+    cd py-zopfli
+    git submodule update --init --recursive
+    python setup.py install
+```

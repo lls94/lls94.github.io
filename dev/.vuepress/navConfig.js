@@ -1,9 +1,11 @@
 module.exports = [{
     text: "前端",
     items: [{
+        text: "收藏",
+        link: "/study/frontEnd/web"
+    }, {
         text: "javaScript",
         link: "/study/frontEnd/javaScript"
-
     }, {
         text: "CSS",
         link: "/study/frontEnd/CSS"
