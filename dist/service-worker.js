@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "9990b3033db000e511cbbe44f766278f"
+    "revision": "fff406b19084176566bdb10a5d3dd97c"
   },
   {
     "url": "assets/css/0.styles.91b834e2.css",
@@ -38,16 +38,16 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.1dcf7e55.js",
-    "revision": "531e7efba64d825f3ac2f8f6c5d05c4a"
+    "url": "assets/js/10.e10b517a.js",
+    "revision": "255b996c2a8ba35315c7824bf4274416"
   },
   {
-    "url": "assets/js/11.ca84c50b.js",
-    "revision": "8c6416a71a920319aedc683d85a35204"
+    "url": "assets/js/11.1ed581ea.js",
+    "revision": "63dbe3d5d78945d7e71fcf3c15a0a818"
   },
   {
-    "url": "assets/js/12.bd0d175f.js",
-    "revision": "789914f0859f811bf81abe6ccb206c72"
+    "url": "assets/js/12.7c8e4a89.js",
+    "revision": "2eca860b0f0f48399d429fc3432638b2"
   },
   {
     "url": "assets/js/13.a2f31deb.js",
@@ -58,8 +58,8 @@ self.__precacheManifest = [
     "revision": "a1d6d99449bd9e5747eed732396a82ca"
   },
   {
-    "url": "assets/js/15.8aa0b6e7.js",
-    "revision": "a4c2811ea4b0d0e02e7c0efdb62c2c48"
+    "url": "assets/js/15.c2c745df.js",
+    "revision": "af18540f0a9457875342cb2d35a4be82"
   },
   {
     "url": "assets/js/16.139e718e.js",
@@ -86,60 +86,60 @@ self.__precacheManifest = [
     "revision": "057a05877946c946e7d53dba41e8440f"
   },
   {
-    "url": "assets/js/7.11ba44fb.js",
-    "revision": "c8915ac2594e160f3a8a3690ade4f459"
+    "url": "assets/js/7.7afd2795.js",
+    "revision": "640ef5a1070a38872eecdc0c905a6237"
   },
   {
-    "url": "assets/js/8.0301e620.js",
-    "revision": "bee7448c1a8c85734bb4d0ecce88423e"
+    "url": "assets/js/8.bdde6d90.js",
+    "revision": "e708bbd78b4ac22db935cc15115b0afa"
   },
   {
-    "url": "assets/js/9.65973fda.js",
-    "revision": "5d7455f0c76c45a5a1c3691698bcc7de"
+    "url": "assets/js/9.8e520d87.js",
+    "revision": "7d197c97658cbb426f362688ca41429e"
   },
   {
-    "url": "assets/js/app.6b06c378.js",
-    "revision": "1c499923e5ca10ded369c75b3a406653"
+    "url": "assets/js/app.2215ee6f.js",
+    "revision": "fe48f22233c889a998b3f360ad651f78"
   },
   {
     "url": "index.html",
-    "revision": "e79d72423f1b7854053af5c661d00a40"
+    "revision": "35346aca1caa385969f6a42415fc8071"
   },
   {
     "url": "src/entertainment/index.html",
-    "revision": "3af51c1a3c49e105b628aecf26139e60"
+    "revision": "963ca86b96656558215837ca33f6fbca"
   },
   {
     "url": "src/study/codeSnippet.html",
-    "revision": "fc0b5d66e4230d758ef23131f50dc1b5"
+    "revision": "780a32c2fba6a96b54fc45bfd0e25ee1"
   },
   {
     "url": "src/study/fanqiang.html",
-    "revision": "7b665c7fa9bce5db42bdbd4d8ed7695c"
+    "revision": "695d6c4d4f56627d0bff9e93dc149ace"
   },
   {
     "url": "src/study/flutter/index.html",
-    "revision": "cd700dffae69f3df9e7e96a4368e86ca"
+    "revision": "eef90ad82f6077def424876c356a86a5"
   },
   {
     "url": "src/study/frontEnd/CSS.html",
-    "revision": "1a0f2543155135de45cd0ea49c11c8fd"
+    "revision": "ecbc93252d3ed6f6c60673e6d9f6c60a"
   },
   {
     "url": "src/study/frontEnd/javaScript.html",
-    "revision": "ad1177cf32a25da3883478bd2bdb296e"
+    "revision": "a94ca7503864a51572e2277e22b6c41c"
   },
   {
     "url": "src/study/frontEnd/web.html",
-    "revision": "8b79c45363ab39685161cda358ad5cfa"
+    "revision": "250349d722c89396f5d3e8bda075f1b5"
   },
   {
     "url": "src/study/index.html",
-    "revision": "5bb4f031dde9399762470f801c8067a6"
+    "revision": "592851581097b260b236898b9969ed29"
   },
   {
     "url": "src/study/vsCode.html",
-    "revision": "dd97a6b0a8e85bb384f77c24573b3a73"
+    "revision": "b502cf9c1632d53dfd65e10d62a342b8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
