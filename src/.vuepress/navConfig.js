@@ -2,30 +2,30 @@ module.exports = [{
     text: "前端",
     items: [{
         text: "收藏",
-        link: "/src/study/frontEnd/web"
+        link: "/pages/study/frontEnd/web"
     }, {
         text: "javaScript",
-        link: "/src/study/frontEnd/javaScript"
+        link: "/pages/study/frontEnd/javaScript"
     }, {
         text: "CSS",
-        link: "/src/study/frontEnd/CSS"
+        link: "/pages/study/frontEnd/CSS"
     }]
 }, {
     text: "收藏",
     items: [{
         text: "学习",
-        link: "/src/study/"
+        link: "/pages/study/"
 
     }, {
         text: "娱乐",
-        link: "/src/entertainment/"
+        link: "/pages/entertainment/"
     }]
 }, {
     text: "vscode",
-    link: "/src/study/vsCode"
+    link: "/pages/study/vsCode"
 }, {
     text: "翻墙",
-    link: "/src/study/fanqiang"
+    link: "/pages/study/fanqiang"
 }, {
     text: "MDN",
     link: "https://developer.mozilla.org/zh-CN/"
