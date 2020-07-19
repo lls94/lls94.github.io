@@ -1,6 +1,6 @@
 const navConfig = require("./navConfig.js");
 module.exports = {
-    title: "杂货铺",
+    title: "杂货铺123",
     description: "Just playing around",
     locales: {
         '/': {
