@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "nodemon --delay 1  --watch .vuepress --exec \"vuepress dev src\" ./",
-    "build": "vuepress build ./",
+    "build": "vuepress build src/",
     "prepush": "yarn build",
     "push": "./deploy.sh"
   },

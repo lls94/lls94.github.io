@@ -41,7 +41,7 @@ module.exports = {
         ["meta", { name: "msapplication-TileColor", content: "#000000" }]
     ],
     base: "/dist/",
-    dest: "./dist",
+    dest: './dist/',
     evergreen: true,
     themeConfig: {
         smoothScroll: true,

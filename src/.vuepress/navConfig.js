@@ -2,7 +2,7 @@ module.exports = [{
     text: "学习笔记",
     items: [{
         text: "npm",
-        link: "/pages/study/"
+        link: "/pages/npm"
     }]
 },{
     text: "MDN",
