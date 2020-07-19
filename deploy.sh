@@ -7,7 +7,7 @@ set -e
 # yarn build
 
 # 拷贝文件到项目根目录
-mv ./dist/*.html ./
+cp ./dist/*.html ./
 
 # 进入生成的文件夹
 # cd docs/.vuepress/dist
