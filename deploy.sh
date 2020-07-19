@@ -21,7 +21,8 @@ git add -A
 git commit -m 'vuepress deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:lls94/lls94.github.io.git master
+git push
+# git push -f git@github.com:lls94/lls94.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
