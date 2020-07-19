@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-yarn build
+# yarn build
 
 # 拷贝文件到项目根目录
 cp ./dist/*.html ../
