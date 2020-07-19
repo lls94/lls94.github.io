@@ -40,7 +40,7 @@ module.exports = {
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
         ["meta", { name: "msapplication-TileColor", content: "#000000" }]
     ],
-    base: "/dist",
+    base: "/dist/",
     dest: "./dist",
     evergreen: true,
     themeConfig: {
