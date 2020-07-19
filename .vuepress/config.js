@@ -14,14 +14,14 @@ module.exports = {
         "@vuepress/medium-zoom",
         "@vuepress/nprogress",
         "@vuepress/back-to-top", [
-            "@vuepress/pwa",
-            {
-                serviceWorker: true,
-                updatePopup: {
-                    message: "杂货铺上新东西了，要看看吗？？？",
-                    buttonText: "我要我要"
-                }
-            }
+            // "@vuepress/pwa",
+            // {
+            //     serviceWorker: true,
+            //     updatePopup: {
+            //         message: "杂货铺上新东西了，要看看吗？？？",
+            //         buttonText: "我要我要"
+            //     }
+            // }
         ],
         [
             "@vuepress/last-updated",
