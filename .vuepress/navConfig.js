@@ -1,6 +1,5 @@
 module.exports = [{
     text: "前端",
-    link:'/src/index.md',
     items: [{
         text: "收藏",
         link: "/src/study/frontEnd/web"
