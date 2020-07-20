@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "package-lock.json": true,
+        "yarn.lock": true,
+        "404.html": true,
+        "index.html": true,
+    }
+}
