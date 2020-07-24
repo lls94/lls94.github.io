@@ -1,8 +1,27 @@
 ## npm 命令
 
+- ```
+  npm set init.license "MIT"  // 为 init 指令 设置 默认值
+  ```
+
 - ```shell
   npm init  // 初始化 package.json文件（会问一些配置问题）
   ```
+
+- ```
+  npm init --yes (-y) // 创建一个 默认的 package.json 文件
+  ```
+
+  - `name`: 当前目录名称
+  - `version`: 总是 `1.0.0`
+  - `description`:  使用 README 文件内容 或者 空字符串 `""`
+  - `main`: 总是 `index.js`
+  - `scripts`:  默认创建一个空的 `test` 脚本
+  - `keywords`: `""`
+  - `author`: `""`
+  - `license`: [`ISC`](https://opensource.org/licenses/ISC)
+  - `bugs`: 当前目录的信息（如果存在）
+  - `homepage`: 当前目录的信息（如果存在）
 
 - ```bash
   npm login  // 登录账户
@@ -46,3 +65,19 @@
     ```
 
     
+
+##  .npm-init.js
+
+```javascript
+//  此文件 要放到 当前用户根目录下
+module.exports = {
+  name: require("path").resolve().split("\\").reverse()[0],
+  version: "0.0.1",
+  项目类型: prompt(
+    "what's your favorite flavor of ice cream, buddy?",
+    "I LIKE THEM ALL"
+  ),
+  license: "MIT",
+};
+```
+

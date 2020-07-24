@@ -1,5 +1,11 @@
 module.exports = [{
-    text: "学习笔记",
+    text: "笔记",
+    items: [{
+        text: "npm",
+        link: "/pages/npm/"
+    }]
+},{
+    text: "教程",
     items: [{
         text: "npm",
         link: "/pages/npm/"
