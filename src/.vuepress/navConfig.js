@@ -12,6 +12,12 @@ module.exports = [{
     },{
         text: "flutter",
         link: "/pages/notes/flutter"
+    },{
+        text: "git",
+        link: "/pages/notes/git"
+    },{
+        text: "jenkins",
+        link: "/pages/notes/jenkins"
     }]
 },{
     text: "教程",
