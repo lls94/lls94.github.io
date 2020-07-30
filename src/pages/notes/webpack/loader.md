@@ -1,0 +1,1 @@
+第一个 loader 的传入参数只有一个：资源文件(resource file)的内容

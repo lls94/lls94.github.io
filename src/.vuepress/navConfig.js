@@ -18,6 +18,12 @@ module.exports = [{
     },{
         text: "jenkins",
         link: "/pages/notes/jenkins"
+    },{
+        text: "webpack",
+        items:[{
+            text: "loader",
+            link: "/pages/notes/webpack/loader"
+        }]
     }]
 },{
     text: "教程",
