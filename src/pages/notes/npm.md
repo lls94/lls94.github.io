@@ -165,7 +165,9 @@ A scope allows you to create a package with the same name as a package created b
     "version": "1.0.0",   // 必须包含  x.x.x
     "main":"index.js",
     "description":"有这个字段更容易被搜到",
-    "author":"Your Name <email@example.com> (http://example.com)"
+    "author":"Your Name <email@example.com> (http://example.com)",
+    "dependencies":"", // 应用程序生产中 所用到的包    npm install packageName --save-prod
+    "devDependencies":""  // 本地开发和测试 用到的包  npm install packageName --save-dev
 }
 ```
 
@@ -194,6 +196,14 @@ A scope allows you to create a package with the same name as a package created b
   npm init --yes  // 使用 默认模板 生成 package.json
   ```
 
+- ```
+  npm init --scope=@scope-name // 限制组织范围
+  ```
+
+- ```
+  npm init --scope=@my-username // 用户范围包
+  ```
+
 - 为 init 命令 设置 默认配置
 
   - ```
@@ -203,38 +213,6 @@ A scope allows you to create a package with the same name as a package created b
     ```
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## npm 命令
 
@@ -318,4 +296,153 @@ module.exports = {
   license: "MIT",
 };
 ```
+
+
+
+[semver计算器]: https://semver.npmjs.com/
+
+| 代码状态             | 阶段         | 规则                                         | 示例版本 |
+| -------------------- | ------------ | -------------------------------------------- | -------- |
+| 第一个版本           | 新产品       | 从 1.0.0 开始                                | 1.0.0    |
+| 向后兼容的错误修复   | 修补程序发布 | 增量第三个数字                               | 1.0.1    |
+| 向后兼容的新功能     | 次要释放     | 增量中间数字，将最后一个数字重置为零         | 1.1.0    |
+| 破坏向后兼容性的更改 | 主要版本     | 递增第一个数字，将中间和最后一个数字重置为零 | 2.0.0    |
+
+
+
+## 设置分发标签
+
+```
+npm publish --tag <tag>
+```
+
+```
+npm dist-tag add <package-name>@<version> [<tag>]  // npm dist-tag add example-package@1.4.0 stable 向包的特定版本添加 标记
+```
+
+
+
+
+
+## 更改包的可见性
+
+- ```
+  npm access restricted <package-name>  // 把 公共包 设置为 私有包
+  ```
+
+- ```
+  npm access public <package-name>  // 把 私有包 设置为 公共包
+  ```
+
+## 增加协作者
+
+- ```
+  npm owner add <user> <your-package-name>
+  ```
+
+## 更新包的 版本号
+
+- ```
+  npm version <update_type>
+  ```
+
+  
+
+## 弃用包  
+
+- ```
+  npm deprecate <package-name> "<message>"   // 弃用整个包
+  ```
+
+- ```
+  npm deprecate <package-name>@<version> "<message>"  // 弃用包的某个版本
+  ```
+
+- ```
+  // 将包 转移给 其他 维护者 
+  npm owner add npm <package-name> --otp=一次性密码
+  npm owner rm <user> <package-name> --otp=一次性密码
+  ```
+
+  
+
+## 取消发布包
+
+- ```
+  npm unpublish <package-name>@<version> // 取消发布包的某个版本
+  ```
+
+- ```
+  npm unpublish <package-name> -f  // 取消发布包
+  ```
+
+
+
+## 安装 特定标记 包
+
+- ```
+  npm install <package_name>@<tag>
+  ```
+
+  
+
+## 更新包
+
+- ```
+  npm outdated  // 查看 有哪些包 过期了
+  ```
+
+- ```
+  npm update  // 更新 包
+  ```
+
+- ```
+  npm outdated -g --depth=0  // 查看全局 哪些包 需要 更新
+  ```
+
+- ```
+  npm update -g <package_name>  // 更新某个全局包
+  ```
+
+- ```
+  npm update -g  // 更新 所有 全局包
+  ```
+
+
+
+## 卸载包
+
+- ```
+  npm uninstall <package_name> // 卸载包
+  ```
+
+- ```
+  npm uninstall --save <package_name>  // 卸载 并 删除 package.json 中 的 依赖
+  ```
+
+- ```
+  npm uninstall -g <package_name>  // 卸载 全局依赖
+  ```
+
+
+
+## 审核 包 的 漏洞
+
+- ```
+  npm audit
+  ```
+
+- ```
+  npm audit fix  // 自动 将兼容的更新安装到易受攻击的依赖项
+  ```
+
+- ```
+  npm install example-package-name --no-audit  // 安装某个包时 关闭 审核
+  ```
+
+- ```
+  npm set audit false  // 关闭 全局 审核
+  ```
+
+  
 
